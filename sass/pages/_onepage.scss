@@ -1,0 +1,16 @@
+.me {
+	background: rgba(255, 111, 2, 0.2);
+	padding: 1%;
+	.key {
+		@include txto (7em, $purple, transparent);
+		margin-top: 50%;
+	}
+	.about {
+		@include txto (1.5em, $grayC, transparent);
+		margin: 7% 2%;
+    font-family: $console;
+	}
+}
+.skills {
+	background: $grayA;
+}

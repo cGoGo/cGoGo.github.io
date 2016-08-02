@@ -1,0 +1,49 @@
+header {
+	background-image: url(../img/bg.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	.filter {
+		background: rgba(0, 0, 0, 0.1);
+		.header {
+			width: 100%;
+			padding: 20% 0;
+			.title-1, .title-3, .title-4 {
+				font-family: $console;
+			}
+			.title-2 {
+				@include txto (5em, $grayA, rgba(253, 46, 36, 0.7));
+				font-family: $script;
+				display: block;
+				width: 230px;
+				margin: 0 auto;
+			}
+			.title-1, .title-3 {
+				@include txto (2.5em, $grayA, rgba(255, 111, 2, 0.7));
+			}
+			.title-4 {
+				@include txto (3.5em, $grayA, rgba(129, 28, 94, 0.7));
+			}
+		}
+	}
+	nav {
+		background: $grayA;
+		font-family: $console;
+		.button-collapse {
+			color: $grayC;
+			&:hover {
+				color: $orange;
+			}
+		}
+		.menu-item {
+			color: $grayC;
+			font-size: 1.5em;
+			&:hover {
+				background: $rose;
+				color: $grayA;
+			}
+		}
+	}
+}
+
+

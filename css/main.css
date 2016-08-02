@@ -1,0 +1,61 @@
+header {
+  background-image: url(../img/bg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  header .filter {
+    background: rgba(0, 0, 0, 0.1); }
+    header .filter .header {
+      width: 100%;
+      padding: 20% 0; }
+      header .filter .header .title-1, header .filter .header .title-3, header .filter .header .title-4 {
+        font-family: "Inconsolata", Courier; }
+      header .filter .header .title-2 {
+        font-size: 5em;
+        color: #EFEFEF;
+        background: rgba(253, 46, 36, 0.7);
+        font-family: "Bad Script", cursive;
+        display: block;
+        width: 230px;
+        margin: 0 auto; }
+      header .filter .header .title-1, header .filter .header .title-3 {
+        font-size: 2.5em;
+        color: #EFEFEF;
+        background: rgba(255, 111, 2, 0.7); }
+      header .filter .header .title-4 {
+        font-size: 3.5em;
+        color: #EFEFEF;
+        background: rgba(129, 28, 94, 0.7); }
+  header nav {
+    background: #EFEFEF;
+    font-family: "Inconsolata", Courier; }
+    header nav .button-collapse {
+      color: #444444; }
+      header nav .button-collapse:hover {
+        color: #FF6F02; }
+    header nav .menu-item {
+      color: #444444;
+      font-size: 1.5em; }
+      header nav .menu-item:hover {
+        background: #FD2E24;
+        color: #EFEFEF; }
+
+.me {
+  background: rgba(255, 111, 2, 0.2);
+  padding: 1%; }
+  .me .key {
+    font-size: 7em;
+    color: #811C5E;
+    background: transparent;
+    margin-top: 50%; }
+  .me .about {
+    font-size: 1.5em;
+    color: #444444;
+    background: transparent;
+    margin: 7% 2%;
+    font-family: "Inconsolata", Courier; }
+
+.skills {
+  background: #EFEFEF; }
+
+/*# sourceMappingURL=main.css.map */

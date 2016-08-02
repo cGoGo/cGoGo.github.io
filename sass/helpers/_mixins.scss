@@ -1,0 +1,5 @@
+@mixin txto ($size, $color, $bg) {
+	font-size: $size;
+	color: $color;
+	background: $bg;
+}
