@@ -3,6 +3,12 @@ h3 {
   color: #444444;
   font-weight: 700; }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 3; }
+
 header {
   background-image: url(../img/bg.JPG);
   background-size: cover;
@@ -67,10 +73,10 @@ header {
   background: #EFEFEF;
   padding: 8% 1%; }
   .skills .cont-skills {
-    padding: 5%;
+    padding: 7%;
     opacity: 0.5; }
     .skills .cont-skills:hover {
-      padding: 2%;
+      padding: 5%;
       opacity: 1; }
     .skills .cont-skills .img-resp {
       width: 100%; }
@@ -98,6 +104,58 @@ header {
 		to {left: 88%;}
 	}
 }*/
+.works {
+  background: #EFEFEF;
+  padding: 8% 1%;
+  background: rgba(253, 46, 36, 0.2); }
+  .works .card {
+    margin: 10% 0; }
+    .works .card .card-content {
+      background: #EFEFEF; }
+      .works .card .card-content .card-title {
+        font-family: "Inconsolata", Courier;
+        color: #811C5E !important; }
+        .works .card .card-content .card-title .material-icons:hover {
+          color: #FF6F02; }
+      .works .card .card-content p a {
+        font-family: "Inconsolata", Courier;
+        color: #FF6F02; }
+    .works .card .card-reveal {
+      font-family: "Inconsolata", Courier;
+      color: #811C5E !important;
+      background: #EFEFEF; }
+      .works .card .card-reveal span {
+        color: #FD2E24 !important; }
+        .works .card .card-reveal span i:hover {
+          color: #811C5E; }
+      .works .card .card-reveal p {
+        font-size: 1.2em; }
+
+.rrss {
+  padding: 8% 1%;
+  background: #EFEFEF; }
+  .rrss .btn-floating.btn-large {
+    height: 80px;
+    width: 80px;
+    margin: 10% 4%; }
+    .rrss .btn-floating.btn-large.rrss-tw i {
+      background: #FD2E24; }
+    .rrss .btn-floating.btn-large.rrss-gh i {
+      background: #811C5E; }
+    .rrss .btn-floating.btn-large.rrss-in i {
+      background: #FF6F02; }
+    .rrss .btn-floating.btn-large i {
+      line-height: 80px;
+      font-size: 3em; }
+
+footer {
+  background: rgba(255, 111, 2, 0.2);
+  font-family: "Inconsolata", Courier;
+  padding: 2% 0;
+  font-size: 1.2em; }
+  footer a {
+    color: rgba(255, 111, 2, 0.7); }
+
 @media (min-width: 600px) and (max-width: 790px) {
   header .filter .header .title-4 {
     font-size: 2.5em; } }

@@ -31,23 +31,23 @@
 					<div class="nav-wrapper">
 						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 						<ul class="right hide-on-med-and-down">
-							<li><a href="#" class="menu-item">Sobre Mi</a></li>
-							<li><a href="#" class="menu-item">Habilidades</a></li>
-							<li><a href="#" class="menu-item">Proyectos</a></li>
-							<li><a href="#" class="menu-item">Contacto</a></li>
+							<li><a href="#me" class="menu-item scroller">Sobre Mi</a></li>
+							<li><a href="#skills" class="menu-item scroller">Habilidades</a></li>
+							<li><a href="#works" class="menu-item scroller">Proyectos</a></li>
+							<li><a href="#rrss" class="menu-item scroller">Contacto</a></li>
 						</ul>
 						<ul class="side-nav" id="mobile-demo">
-							<li><a href="#" class="menu-item">Sobre Mi</a></li>
-							<li><a href="#" class="menu-item">Habilidades</a></li>
-							<li><a href="#" class="menu-item">Proyectos</a></li>
-							<li><a href="#" class="menu-item">Contacto</a></li>
+							<li><a href="#me" class="menu-item scroller">Sobre Mi</a></li>
+							<li><a href="#skills" class="menu-item scroller">Habilidades</a></li>
+							<li><a href="#works" class="menu-item scroller">Proyectos</a></li>
+							<li><a href="#rrss" class="menu-item scroller">Contacto</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</div>
 	</header>
-	<section class="me">
+	<section class="me" id="me">
 		<div class="container">
 			<div class="row">
 				<div class="col s1 m1">
@@ -78,7 +78,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="skills">
+	<section class="skills" id="skills">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
@@ -128,9 +128,10 @@
 		</div>
 	</section>
 -->
-	<section>
+	<section class="works" id="works">
 		<div class="container">
 			<div class="row">
+				<h3 class="center-align">Proyectos</h3>
 				<div class="col m4 s12">
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light">
@@ -161,15 +162,64 @@
 						</div>
 					</div>
 				</div>
-				<div class="col m4 s12"></div>
+				<div class="col m4 s12">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="img/works/peliculas-categaria-camilinagogo.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+							<p><a href="#">This is a link</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 offset-m2">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="img/works/hackaton-camilinagogo.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+							<p><a href="#">This is a link</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4 ">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="img/works/todo-app-mobile-camilinaGoGo.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+							<p><a href="#">This is a link</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="rrss" id="rrss">
 		<div class="container">
 			<div class="row">
-				<div class="col s12 m12">
-					rrss contacto
+				<h3 class="center-align">Contáctame</h3>
+				<div class="col s12 m12 center-align">
+					<a class="btn-floating btn-large waves-effect waves-light rrss-tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a class="btn-floating btn-large waves-effect waves-light rrss-gh"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+					<a class="btn-floating btn-large waves-effect waves-light rrss-in"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
@@ -177,8 +227,8 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col s12 m12">
-					pie de página
+				<div class="col s12 m12 center-align">
+					<a href="http://camilinaGoGo.github.io/">© 2016 Camila González</a>
 				</div>
 			</div>
 		</div>
@@ -186,6 +236,7 @@
 	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/smoothscrolling.jquery.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

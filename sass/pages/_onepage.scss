@@ -19,10 +19,10 @@
 	background: $grayA;
 	padding: 8% 1%;
 	.cont-skills {
-		padding: 5%;
+		padding: 7%;
 		opacity: 0.5;
 		&:hover {
-			padding: 2%;
+			padding: 5%;
 			opacity: 1;
 		}
 		.img-resp {
@@ -53,4 +53,70 @@
 		to {left: 88%;}
 	}
 }*/
-
+.works {
+	background: $grayA;
+	padding: 8% 1%;
+	background: rgba(253, 46, 36, 0.2);
+	.card {
+		margin: 10% 0;
+		.card-content {
+			background: $grayA;
+			.card-title {
+				font-family: $console;
+				color: $purple !important;
+				.material-icons:hover {
+					color: $orange;
+				}
+			}
+			p a {
+				font-family: $console;
+				color: $orange;
+			}
+		}
+		.card-reveal {
+			font-family: $console;
+			color: $purple !important;
+			background: $grayA;
+			span {
+				color: $rose !important;
+				i:hover {
+					color: $purple;
+				}
+			}
+			p {
+				font-size: 1.2em;
+			}
+		}
+	}
+}
+.rrss {
+	padding: 8% 1%;
+	background: $grayA;
+	.btn-floating.btn-large {
+		height: 80px;
+		width: 80px;
+		margin: 10% 4%;
+		&.rrss-tw i {
+			background: $rose;
+		}
+		&.rrss-gh i {
+			background: $purple;
+		}
+		&.rrss-in i {
+			background: $orange;
+		}
+		i {
+			line-height: 80px;
+			font-size: 3em;
+		}
+	}
+}
+footer {
+	background: rgba(255, 111, 2, 0.2);
+	font-family: $console;
+	padding: 2% 0;
+	font-size: 1.2em;
+	a {
+		color: rgba(255, 111, 2, 0.7);
+	}
+}

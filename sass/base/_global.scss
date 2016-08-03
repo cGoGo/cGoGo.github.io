@@ -3,3 +3,11 @@ h3 {
 	color: $grayC;
 	font-weight: 700;
 }
+
+//menu fijo
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 3;
+}
