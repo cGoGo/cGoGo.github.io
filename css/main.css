@@ -6,8 +6,11 @@ h3 {
 .fixed {
   position: fixed;
   top: 0;
-  height: 70px;
+  height: 56px;
   z-index: 3; }
+
+#sidenav-overlay {
+  z-index: 0; }
 
 header {
   background-image: url(../img/bg.JPG);
@@ -50,10 +53,24 @@ header {
       header nav .menu-item:hover {
         background: #FD2E24;
         color: #EFEFEF; }
+    header nav .side-nav {
+      background: #EFEFEF;
+      width: 200px; }
+
+footer {
+  background: rgba(255, 111, 2, 0.2);
+  font-family: "Inconsolata", Courier;
+  padding: 1% 0;
+  font-size: 1.2em; }
+  footer a {
+    color: rgba(255, 111, 2, 0.7); }
 
 .me {
   background: rgba(255, 111, 2, 0.2);
   padding: 8% 1%; }
+  .me .img-perfil {
+    width: 30%;
+    border-radius: 50%; }
   .me .icon-me {
     font-size: 4.5em;
     color: #FF6F02; }
@@ -137,24 +154,22 @@ header {
   .rrss .btn-floating.btn-large {
     height: 80px;
     width: 80px;
-    margin: 10% 4%; }
+    margin: 5% 4%; }
     .rrss .btn-floating.btn-large.rrss-tw i {
       background: #FD2E24; }
+      .rrss .btn-floating.btn-large.rrss-tw i:hover {
+        background: #FF6F02; }
     .rrss .btn-floating.btn-large.rrss-gh i {
       background: #811C5E; }
+      .rrss .btn-floating.btn-large.rrss-gh i:hover {
+        background: #FD2E24; }
     .rrss .btn-floating.btn-large.rrss-in i {
       background: #FF6F02; }
+      .rrss .btn-floating.btn-large.rrss-in i:hover {
+        background: #811C5E; }
     .rrss .btn-floating.btn-large i {
       line-height: 80px;
       font-size: 3em; }
-
-footer {
-  background: rgba(255, 111, 2, 0.2);
-  font-family: "Inconsolata", Courier;
-  padding: 2% 0;
-  font-size: 1.2em; }
-  footer a {
-    color: rgba(255, 111, 2, 0.7); }
 
 @media (min-width: 600px) and (max-width: 790px) {
   header .filter .header .title-4 {
@@ -168,5 +183,11 @@ footer {
 
   .key {
     display: none; } }
+@media (min-width: 992px) {
+  .fixed {
+    position: fixed;
+    top: 0;
+    height: 64px;
+    z-index: 4; } }
 
 /*# sourceMappingURL=main.css.map */

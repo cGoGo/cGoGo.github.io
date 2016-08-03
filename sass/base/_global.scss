@@ -8,6 +8,10 @@ h3 {
 .fixed {
 	position: fixed; 
 	top: 0; 
-	height: 70px; 
+	height: 56px; 
 	z-index: 3;
+}
+
+#sidenav-overlay {
+z-index: 0;
 }
