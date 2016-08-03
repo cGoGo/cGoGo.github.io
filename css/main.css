@@ -1,3 +1,8 @@
+h3 {
+  font-family: "Inconsolata", Courier;
+  color: #444444;
+  font-weight: 700; }
+
 header {
   background-image: url(../img/bg.JPG);
   background-size: cover;
@@ -42,7 +47,10 @@ header {
 
 .me {
   background: rgba(255, 111, 2, 0.2);
-  padding: 1%; }
+  padding: 8% 1%; }
+  .me .icon-me {
+    font-size: 4.5em;
+    color: #FF6F02; }
   .me .key {
     font-size: 7em;
     color: #811C5E;
@@ -56,6 +64,51 @@ header {
     font-family: "Inconsolata", Courier; }
 
 .skills {
-  background: #EFEFEF; }
+  background: #EFEFEF;
+  padding: 8% 1%; }
+  .skills .cont-skills {
+    padding: 5%;
+    opacity: 0.5; }
+    .skills .cont-skills:hover {
+      padding: 2%;
+      opacity: 1; }
+    .skills .cont-skills .img-resp {
+      width: 100%; }
+
+/*
+.cont-animation {
+	position: relative;
+	.animation {
+		position: relative;
+		width: 30px;
+		-webkit-animation: example 5s infinite;
+		animation: example 5s infinite;
+		z-index: 3;
+		img {
+			width: 50px;
+			margin: 15px 0px;
+		}
+	}
+	@-webkit-keyframes example {
+		from {left: 0;}
+		to {left: 88%;}
+	}
+	@keyframes example {
+		from {left: 0;}
+		to {left: 88%;}
+	}
+}*/
+@media (min-width: 600px) and (max-width: 790px) {
+  header .filter .header .title-4 {
+    font-size: 2.5em; } }
+@media (max-width: 599px) {
+  header {
+    background-position: right; }
+
+  header .filter .header .title-4 {
+    font-size: 2.5em; }
+
+  .key {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

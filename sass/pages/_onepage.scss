@@ -1,6 +1,10 @@
 .me {
 	background: rgba(255, 111, 2, 0.2);
-	padding: 1%;
+	padding: 8% 1%;
+	.icon-me {
+		font-size: 4.5em;
+		color: $orange;
+	}
 	.key {
 		@include txto (7em, $purple, transparent);
 		margin-top: 50%;
@@ -8,9 +12,45 @@
 	.about {
 		@include txto (1.5em, $grayC, transparent);
 		margin: 7% 2%;
-    font-family: $console;
+		font-family: $console;
 	}
 }
 .skills {
 	background: $grayA;
+	padding: 8% 1%;
+	.cont-skills {
+		padding: 5%;
+		opacity: 0.5;
+		&:hover {
+			padding: 2%;
+			opacity: 1;
+		}
+		.img-resp {
+			width: 100%;
+		}
+	}
 }
+/*
+.cont-animation {
+	position: relative;
+	.animation {
+		position: relative;
+		width: 30px;
+		-webkit-animation: example 5s infinite;
+		animation: example 5s infinite;
+		z-index: 3;
+		img {
+			width: 50px;
+			margin: 15px 0px;
+		}
+	}
+	@-webkit-keyframes example {
+		from {left: 0;}
+		to {left: 88%;}
+	}
+	@keyframes example {
+		from {left: 0;}
+		to {left: 88%;}
+	}
+}*/
+
