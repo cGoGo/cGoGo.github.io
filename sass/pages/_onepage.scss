@@ -63,6 +63,9 @@
 	background: rgba(253, 46, 36, 0.2);
 	.card {
 		margin: 10% 0;
+		.waves-effect {
+			z-index: 0 !important;
+		}
 		.card-content {
 			background: $grayA;
 			.card-title {
@@ -75,6 +78,9 @@
 			p a {
 				font-family: $console;
 				color: $orange;
+				&:hover {
+					color: $purple;
+				}
 			}
 		}
 		.card-reveal {
@@ -87,8 +93,15 @@
 					color: $purple;
 				}
 			}
-			p {
+			.work-description {
 				font-size: 1.2em;
+			}
+			p a {
+				font-family: $console;
+				color: $orange;
+				&:hover {
+					color: $purple;
+				}
 			}
 		}
 	}
@@ -96,6 +109,9 @@
 .rrss {
 	padding: 8% 1%;
 	background: $grayA;
+	.waves-effect {
+		z-index: 0 !important;
+	}
 	.btn-floating.btn-large {
 		height: 80px;
 		width: 80px;

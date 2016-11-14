@@ -7,7 +7,7 @@ h3 {
   position: fixed;
   top: 0;
   height: 56px;
-  z-index: 3; }
+  z-index: 4; }
 
 #sidenav-overlay {
   z-index: 0; }
@@ -127,6 +127,8 @@ footer {
   background: rgba(253, 46, 36, 0.2); }
   .works .card {
     margin: 10% 0; }
+    .works .card .waves-effect {
+      z-index: 0 !important; }
     .works .card .card-content {
       background: #EFEFEF; }
       .works .card .card-content .card-title {
@@ -137,6 +139,8 @@ footer {
       .works .card .card-content p a {
         font-family: "Inconsolata", Courier;
         color: #FF6F02; }
+        .works .card .card-content p a:hover {
+          color: #811C5E; }
     .works .card .card-reveal {
       font-family: "Inconsolata", Courier;
       color: #811C5E !important;
@@ -145,12 +149,19 @@ footer {
         color: #FD2E24 !important; }
         .works .card .card-reveal span i:hover {
           color: #811C5E; }
-      .works .card .card-reveal p {
+      .works .card .card-reveal .work-description {
         font-size: 1.2em; }
+      .works .card .card-reveal p a {
+        font-family: "Inconsolata", Courier;
+        color: #FF6F02; }
+        .works .card .card-reveal p a:hover {
+          color: #811C5E; }
 
 .rrss {
   padding: 8% 1%;
   background: #EFEFEF; }
+  .rrss .waves-effect {
+    z-index: 0 !important; }
   .rrss .btn-floating.btn-large {
     height: 80px;
     width: 80px;
